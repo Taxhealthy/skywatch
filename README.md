@@ -9,3 +9,7 @@ Designed for use in public safety alert systems and atmospheric monitoring dashb
 - Real-time CTT imagery via NASA Worldview
 - REST API to serve images and data
 - Deployable to Render, Vercel, or Replit
+## Endpoints
+
+- `/` — Home route (API status)
+- `/ctt` — Redirects to today’s cloud top temperature image from NASA Worldview
